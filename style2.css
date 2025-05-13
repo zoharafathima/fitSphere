@@ -1,0 +1,47 @@
+.poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  li a{
+
+    color: black;
+    
+ }
+ li{
+   padding: 20px;
+   color: black;
+ }
+ body {
+  margin: 0;
+  overflow-x: hidden;
+}
+ @media (min-width: 768px) {
+    .container34 .col-md-4 {
+      padding-left: 50px;  /* Padding for larger screens */
+      padding-right: 50px;
+    }
+  }
+
+  /* Responsive font size */
+  @media (max-width: 576px) {
+    .container34 h1 {
+      font-size: 1.5rem;
+      padding-right: 50px;  /* Smaller font size on small screens */
+    }
+
+    .container34 a {
+      font-size: 0.9rem;
+      padding-right: 50px;  /* Adjust link font size */
+    }
+  }
+  @media (max-width: 576px) {
+    footer p {
+      font-size: 0.9rem;  /* Slightly smaller font size on smaller screens */
+      padding: 8px 0;  /* Reduce padding for smaller screens */
+    }
+
+    footer a {
+      font-size: 0.9rem;  /* Smaller link font size */
+    }
+  }
